@@ -7,6 +7,7 @@ import (
 	"os"
 	"os/exec"
 	"runtime"
+	"strings"
 
 	"github.com/yosssi/goat/config"
 	"github.com/yosssi/goat/consts"
