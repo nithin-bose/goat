@@ -163,6 +163,12 @@ $ goat
 
 Goat launches watcher processes defined on `goat.json` or `goat.yml` file.
 
+Specify a differently named config file with `-c` option:
+
+```sh
+$ goat -c foo-goat.yml
+```
+
 Default interval time of each watcher's file check loop is 500 ms. You can change this interval time by specifying -i flag. The following example shows a command which sets the interval time to 1000 ms:
 
 ```sh
